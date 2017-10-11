@@ -17,8 +17,8 @@ public class textParser01 extends PApplet {
 String[] textLines;
 
 public void setup( ) {
-  size(640,200 , P3D);
-  smooth();
+  
+  
 
   textLines = loadStrings("test1.csv");
 
@@ -40,6 +40,7 @@ public void draw( ) {
     println("---");
   }
 }
+  public void settings() {  size(640,200 , P3D);  smooth(); }
   static public void main(String[] passedArgs) {
     String[] appletArgs = new String[] { "textParser01" };
     if (passedArgs != null) {
