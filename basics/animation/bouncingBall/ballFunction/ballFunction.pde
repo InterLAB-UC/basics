@@ -1,15 +1,11 @@
-float circleX;
-float circleY;
-float circleSpeedX;
-float circleSpeedY;
+float circleX = 0;
+float circleY = 0;
+float circleSpeedX = 2.8;
+float circleSpeedY = 5;
 
 
 void setup() {
   size(720, 480);
-  circleX = 0;
-  circleSpeedX = 2.8;
-  circleY = 0;
-  circleSpeedY = 5;
 }
 
 void draw() {
